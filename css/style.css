@@ -1,0 +1,49 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 17px;
+	line-height: 20px;
+}
+.navbar {
+	background: #181a1c;
+	margin-bottom: 0;
+	min-height: 70px;
+	border-radius: 0px;
+}
+.navbar-brand img {
+	width: 120px;
+	height: 40px;
+}
+.navbar-toggle {
+	border-radius: 0;
+	background: #FECE1A;
+	color: #000;
+}
+.navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	border: 1px solid #FECE1A;
+	color: #FFF;
+	background-color: #181a1c;
+	transition: border-color 1s ease;
+}
+.navbar-nav>li>a {
+	color: #FFF;
+	border: 1px solid #181A1C;
+	margin: 10px 3px;
+	text-transform: uppercase;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: #181A1C;
+}
+
+/* Slider start*/
+.button, .button:visited, .button:focus {
+	display: inline-block;
+	border: 1px solid #181A1C;
+	color: #181A1C;
+	padding: 15px 30px;	
+}
+.button:hover, .button:active {
+    background-color:#181A1C;
+    color:#fff;
+    text-decoration: none;
+}
